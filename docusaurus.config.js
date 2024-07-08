@@ -130,7 +130,7 @@ async function createconfig() {
           },
         },
         navbar: {
-          title: "| Optim Solutions",
+          title: "| InfoSphere Optim Solutions",
           logo: {
             alt: "IBM Client Engineering Logo",
             src: "img/logo.svg",

@@ -105,29 +105,17 @@ Optim TDM provides a central data management solution supporting major enterpris
 ### More detail performance advantages due to Optim’s Natively supported RDBMS connection
 
 1. Optim Access via Show Steps
-
 2. Index Analysis Report
-
 3. Database Connection control
-
 4. Database Commit point control
-
 5. Ability to manage number of keys accessed per database fetch
-
 6. Ability to control Key vs scan access
-
 7. Ability to control traversal trough RDBMS via duplicate relationships
-
 8. Ability to control buffer size per connection
-
 9. Ability to Restart a process
-
 10. Support for automatic RDBMS loader vs Insert
-
 11. Ability to control DML: Insert, Update, Both
-
 12. Ability to lock or delete all data before update process
-
 13. Ability to run externalized masking function in RDBMS user defined functions which can be 100s of times faster than normal inserts
 
 :::note 
@@ -165,11 +153,8 @@ Optim Data Privacy along with Optim TDM (Optim TDM Enterprise edition) TDM EE pr
 Full Test Data Management/Data Privacy Functionality
 
 - Automatic and Easy Subsetting (masking is 100% integrated with Optim Test Data Management
-
 - Subsetting is automatic, does not rely on SQL skills
-
 - Automatic complete business object”
-
 - 'random select' or Every “nth” row
 - Automatic Relationally intact subset (Relationships are automatically used in Optim
 - Browse facility
@@ -258,11 +243,8 @@ Using Optim Data Growth Solutions, are able to address the following:
 The restore request enables you to insert or load a subset of data from one or more archives. When the data model differs from that in the source (perhaps the archive was taken from an earlier version of your application), you can also provide additional instructions in the form of table and column maps. You control the boundaries of the process by defining these elements:
 
 - Server on which to run the request
-
 - Archives to be used for the restore
-
 - Selection criteria for the subset of data to restore
-
 - Method of restoring (load or insert)
 
 ### Search and restore
@@ -276,25 +258,15 @@ The Optim solutions reference the catalog or Optim directory to identify candida
 An archive request enables you to extract a subset of data using an access definition that describes the complete business object and to store the extracted data in an archive file. You control the boundaries of the process by defining these elements:
 
 - Server on which to run the request
-
 - Variables to be used during processing
-
 - Types of objects to be captured from the source database
-
 - Archive and index files to create and compression options for those files
-
 - Database resource utilization policy (concurrent connections)
-
 - Access definition with complete business object (a copy is stored in the archive)
-
 - Storage and retention policies
-
 - Security for archived tables and columns (file access definition)
-
 - Collections that are used to virtualize the archive
-
 - E-mail address for notification in case of success or failure
-
 - Delete strategy and timing
 
 ### Purge Source data
@@ -302,15 +274,11 @@ An archive request enables you to extract a subset of data using an access defin
 The delete request enables you to delete data from source databases using instructions in the access definition and data in an archive file. You control the boundaries of the process by defining these elements:
 
 - Server on which to run the request
-
 - Control file that is used for restarting the process and for audit purposes
-
 - Database resource utilization policy (concurrent connections and table locking)
-
 - Level of validation for the delete process (validate data model and compare data)
 
 Optim identifies and archives the complete business object, including the extract strategy:
-
 - (access definition with tables and relationships) and the purge strategy(delete tables). This information is stored in the archive, both because the data-driven engine requires it for processing and so that Optim can document and re-create the access definition in another Optim directory.
 
 ### Deferred delete
